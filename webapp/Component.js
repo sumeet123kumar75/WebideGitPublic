@@ -3,12 +3,14 @@ sap.ui.define([
 	"sap/ui/Device",
 	"sasssasas/model/models"
 ], function(UIComponent, Device, models) {
-	"use strict";
-
+	"use strict" ;
+ 
+ 
+ 
 	return UIComponent.extend("sasssasas.Component", {
 
 		metadata: {
-			manifest: "json"
+			manifest: "json"  
 		},
 
 		/**
